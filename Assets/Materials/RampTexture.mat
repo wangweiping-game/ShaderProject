@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: NormalMapInWorldSpaceMat
-  m_Shader: {fileID: 4800000, guid: 5520d98a15a5c9148bb73cf197622463, type: 3}
+  m_Name: RampTexture
+  m_Shader: {fileID: 4800000, guid: 53472f1910343f540b3eab84ce2b3cec, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -19,17 +19,18 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: ffbd6a4cf6631c045b5791fe6bfeeb8a, type: 3}
+    - _MainTex:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 1cc777a18e632a943a60ca2f6dcda267, type: 3}
+    - _RampTex:
+        m_Texture: {fileID: 2800000, guid: 49502b2ea1de49c42ab1b40d85c5f606, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _BumpScale: 1
     - _Gloss: 20
+    - _Glossiness: 0.5
+    - _Metallic: 0
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Specular: {r: 1, g: 1, b: 1, a: 1}
